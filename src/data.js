@@ -1,9 +1,23 @@
-// estas funciones son de ejemplo
+export const houseG = (harryData) => {
+  let houseGryffindor = harryData.filter ( data =>
+    data.house === "Gryffindor");
+    return houseGryffindor;
+  }
 
-export const example = () => {
-  return 'example';
-};
+  export const houseS = (harryData) => {
+    let houseSlytherin = harryData.filter ( data =>
+      data.house === "Slytherin");
+      return houseSlytherin;
+    }
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+  export const houseR = (harryData) => {
+      let houseRavenclaw = harryData.filter ( data =>
+        data.house === "Ravenclaw");
+        return houseRavenclaw;
+   }
+  
+  export const houseH = (potter) => {
+    let houseHufflepuff = potter.filter ( data =>
+       data.house === "Hufflepuff");
+       return houseHufflepuff;
+     }

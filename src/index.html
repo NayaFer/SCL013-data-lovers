@@ -1,12 +1,106 @@
-<!DOCTYPE html>
+sc<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <div id="root"></div>
+
+  <div class="container"> <!-- entire page -->
+    <input type="checkbox" id="menu-trigger" class="menu-trigger" checked />
+    <label for="menu-trigger">&#9776;</label>
+
+
+    <nav> <!-- side menu -->
+    <div class="side-menu" id="side-menu">
+     <ul class="slider-menu">
+      <a href="index.html">
+      <img src="img/logohpwu2.svg" class="small-logo" id="left-logo">
+      </a>
+    
+
+      <h5>explorar</h5>
+      <li class="categor"><a href="#todos" id="link-todos">todos</a>
+
+        <li class="categor"><a href="#casas"  id="casas">casas</a>
+          <ul>
+            <li id="categoria1"><a  href="#">gryffindor</a></li>
+            <li id="categoria2"><a href="#">slytherin</a></li>
+            <li id="categoria3"><a href="#">ravenclaw</a></li>
+            <li id="categoria4"><a href="#">hufflepuff</a></li>
+          </ul>
+        </li>
+
+
+
+          <li class="categor"><a href="#ocupacion">ocupación</a>
+            <ul>
+              <li><a href="#">estudiante de hogwarts</a></li>
+              <li><a href="#">staff de hogwarts</a></li>
+              <li><a href="#">otra ocupación</a></li>
+            </ul>
+          </li>
+
+
+          <li class="categor"><a href="#linaje">linaje</a>
+            <ul>
+              <li><a href="#">sangre pura</a></li>
+              <li><a href="#">mestizo</a></li>
+              <li><a href="#">hijo de muggles</a></li>
+              <li><a href="#">squib</a></li>
+            </ul>
+          </li>
+
+
+          <li class="categor"><a href="#otras">otras criaturas</a></li>
+        </ul>
+
+
+      </div>
+    </nav>
+
+
+
+
+
+
+    <div class="content-wrap">
+
+      <!-- <div class="selector">
+        <select name="" id="select-gender">
+        <option value="" disabled>Género</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Masculino">Masculino</option>
+      </select>
+      </div> -->
+
+      <div id="pantalla-inicio" class="pantalla-inicio">
+        <img src="img/logohpwu.svg" class="big-logo" id="big-logo">
+
+        <h3>guía para el novato absoluto</h3>
+      </div>
+
+      <!-- Tarjetas -->
+      <section id="results" class="results">
+      </section>
+
+    </div>
+
+
+
+  </div>
+  
+
+
+  <script src="main.js" type="module"></script>
+  <script src="data.js" type="module"></script>
+</body>
+
 </html>
