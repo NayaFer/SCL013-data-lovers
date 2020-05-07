@@ -59,14 +59,16 @@ Como dato :Hicimos nuestro primer feedback con nuestro squad.
 
 ## 5. Protopipo baja fidelidad
 
-!(C:\Users\naya-\Desktop\laboratoria\SCL013-data-lovers\src\img\bajafidelidad.jpeg)
+![FOTO](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/bajafidelidad.jpeg)
+
 
 ## 6. Prototipo alta fidelidad
 
-!(C:\Users\naya-\Desktop\laboratoria\SCL013-data-lovers\src\img\figma1.png)
-!(C:\Users\naya-\Desktop\laboratoria\SCL013-data-lovers\src\img\figma2.png)
-!(C:\Users\naya-\Desktop\laboratoria\SCL013-data-lovers\src\img\figma3.png)
-!(C:\Users\naya-\Desktop\laboratoria\SCL013-data-lovers\src\img\figma4.png)
+![FOTO1](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma1.png)
+![FOTO2](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma2.png)
+![FOTO3](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma3.png)
+![FOTO4](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma4.png)
+
 
 [Enlace Figma](https://www.figma.com/file/8Bg2SLPzDN2GJDezOc5EUx/data-lovers?node-id=0:1)
 
