@@ -54,3 +54,4 @@ return houseHufflepuff;
      data.ancestry === "squib");
      return squib;
       } 
+      
