@@ -1,3 +1,13 @@
+//export const filtrado = (data, propiedad, valor ) => {
+ // return data.filter ((a) => (a[propiedad] === valor ));
+
+//export const filterData = (data, condition) => {
+
+ // console.log(data);
+ // console.log(condition);
+//}
+
+
 export const houseG = (harryData) => {
   let houseGryffindor = harryData.filter ( data =>
     data.house === "Gryffindor");
@@ -22,26 +32,25 @@ data.house === "Hufflepuff");
 return houseHufflepuff;
    }
 
-export const pure = (harryData) => {
-let pureblood= harryData.filter (data =>
-data.ancestry === "pure-blood");
- return pureblood;
-    }
-   
-export const mestizo = (harryData) => {
- let mestizos = harryData.filter (data=>
- data.ancestry === "half-blood");
- return mestizos;
-    }
+   export const san = (harryData) => {
+    let pureblood= harryData.filter (data =>
+    data.ancestry === "pure-blood");
+     return pureblood;
+        }
+  export const mes = (harryData) => {
+   let mes = harryData.filter (data=>
+    data.ancestry === "half-blood");
+   return mes;
+       }     
 
-    export const impure = (harryData) => {
-      let muggleborn = harryData.filter ( data =>
-        data.ancestry === "muggleborn");
-        return muggleborn;
-    }
+   export const hij = (harryData) => {
+   let muggleborn = harryData.filter ( data =>
+    data.ancestry === "muggleborn");
+    return muggleborn;
+      }    
 
-    export const squibs = (harryData) => {
-      let squib = harryData.filter (data =>
-        data.ancestry === "squib");
-        return squib;
-    }
+ export const squi = (harryData) => {
+   let squib = harryData.filter (data =>
+     data.ancestry === "squib");
+     return squib;
+      } 
