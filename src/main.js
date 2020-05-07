@@ -7,6 +7,16 @@ import {houseR} from './data.js';
 const seleccionadoR = houseR(harryData)
 import {houseH} from './data.js';
 const seleccionadoH = houseH(harryData)
+import {pure} from './data.js';
+const seleccionadoPura= pure(harryData)
+import {mestizos} from './data.js';
+const seleccionadoMestizo = mestizos(harryData)
+import {impure} from './data.js';
+  const seleccionadoSucia = impure(harryData)
+import {squibs} from './data.js';
+const seleccionadoSquib = squibs(harryData)
+
+
 
 //console.log(seleccionadoG)
 
@@ -132,3 +142,75 @@ document.getElementById("categoria4").addEventListener("click", ()=>{
      // console.log(houseHufflepuff)
   }
 })
+
+//linaje
+
+document.getElementById("pure").addEventListener("click", ()=>{
+  let pureblood = seleccionadoPura;
+  for (let i=0; i<pureblood.length; i++){
+    results.innerHTML += `<div class = "info">
+    <img class="imagen" src= ${pureblood[i].image}>
+    <li class= "nombre" >Nombre: ${pureblood[i].name}
+    <li class= "descripcion" >Especie: ${pureblood[i].species}
+    <li class= "descripcion"> Casa: ${pureblood[i].house}
+    <li class= "descripcion"> Linaje: ${pureblood[i].ancestry}
+    <li class= "descripcion"> Varita: ${pureblood[i].wand.wood} ${pureblood[i].wand.core} ${pureblood[i].wand.length}
+    <li class= "descripcion"> Cumpleaños: ${pureblood[i].dateOfBirth}
+          </div>`
+    
+  }
+}
+)
+
+document.getElementById("mestizos").addEventListener("click", ()=>{
+  let mestizo = seleccionadoMestizo;
+  for (let i=0; i<mestizo.length; i++){
+    results.innerHTML += `<div class = "info">
+    <img class="imagen" src= ${mestizo[i].image}>
+    <li class= "nombre" >Nombre: ${mestizo[i].name}
+    <li class= "descripcion" >Especie: ${mestizo[i].species}
+    <li class= "descripcion"> Casa: ${mestizo[i].house}
+    <li class= "descripcion"> Linaje: ${mestizo[i].ancestry}
+    <li class= "descripcion"> Varita: ${mestizo[i].wand.wood} ${mestizo[i].wand.core} ${mestizo[i].wand.length}
+    <li class= "descripcion"> Cumpleaños: ${mestizo[i].dateOfBirth}
+          </div>`
+    
+  }
+})
+
+document.getElementById("impure").addEventListener("click", ()=>{
+  let muggleborn = seleccionadoSucia;
+  for (let i=0; i<muggleborn.length; i++){
+    results.innerHTML += `<div class = "info">
+    <img class="imagen" src= ${muggleborn[i].image}>
+    <li class= "nombre" >Nombre: ${muggleborn[i].name}
+    <li class= "descripcion" >Especie: ${muggleborn[i].species}
+    <li class= "descripcion"> Casa: ${muggleborn[i].house}
+    <li class= "descripcion"> Linaje: ${muggleborn[i].ancestry}
+    <li class= "descripcion"> Varita: ${muggleborn[i].wand.wood} ${muggleborn[i].wand.core} ${muggleborn[i].wand.length}
+    <li class= "descripcion"> Cumpleaños: ${muggleborn[i].dateOfBirth}
+          </div>`
+    
+  }
+})
+
+
+
+document.getElementById("squibs").addEventListener("click",()=>{
+let squib= seleccionadoSquib;
+for (let i=0; i<squib.length; i++){
+  results.innerHTML += `<div class = "info">
+  
+  <img class="imagen" src= ${squib[i].image}>
+  <li class= "nombre" >Nombre: ${squib[i].name}
+  <li class= "descripcion" >Especie: ${squib[i].species}
+  <li class= "descripcion"> Casa: ${squib[i].house}
+  <li class= "descripcion"> Linaje: ${squib[i].ancestry}
+  <li class= "descripcion"> Varita: ${squib[i].wand.wood} ${squib[i].wand.core} ${squib[i].wand.length}
+  <li class= "descripcion"> Cumpleaños: ${squib[i].dateOfBirth}
+          </div>`
+  
+}
+
+})
+
