@@ -15,6 +15,15 @@ import {hij} from './data.js';
 const seleccionadoSucia = hij(harryData)
 import {squi} from './data.js';
 const seleccionadoSquib = squi (harryData)  
+import {est} from './data.js';
+const seleccionadoE = est (harryData)
+import {sta} from './data.js';
+const seleccionadoST = sta (harryData)
+import {Otras} from './data.js';
+const seleccionadoCriaturas = Otras (harryData)
+
+
+
 //console.log(seleccionadoG)
 // import {sortArrAtoZ} from './data.js';
 // const ordenarAtoZ = sortArrAtoZ(harryData)
@@ -144,6 +153,54 @@ document.getElementById("huf").addEventListener("click", ()=>{
      // console.log(houseHufflepuff)
   }
 })
+
+document.getElementById("est").addEventListener ("click", ()=>{
+  var div = document.getElementById('results');
+      while(div.firstChild){
+          div.removeChild(div.firstChild);
+      }
+  document.getElementById("pantalla-inicio").style.display = "none";
+  document.getElementById("left-logo").style.visibility = "visible";
+  
+  let students = seleccionadoE;
+  for (let i=0; i<students.length; i++){
+    results.innerHTML += `<div class = "harryCards">
+  <img class="harry-image" src= ${students[i].image}>
+  <li class= "nombre" >Nombre: ${students[i].name}
+  <li class= "descripcion" >Especie: ${students[i].species}
+  <li class= "descripcion"> Casa: ${students[i].house}
+  <li class= "descripcion"> Linaje: ${students[i].ancestry}
+  <li class= "descripcion"> Varita: ${students[i].wand.wood} ${students[i].wand.core} ${students[i].wand.length}
+  <li class= "descripcion"> Cumpleaños: ${students[i].dateOfBirth}
+        </div>`
+  
+}
+})
+
+
+document.getElementById("sta").addEventListener ("click", ()=>{
+  var div = document.getElementById('results');
+      while(div.firstChild){
+          div.removeChild(div.firstChild);
+      }
+  document.getElementById("pantalla-inicio").style.display = "none";
+  document.getElementById("left-logo").style.visibility = "visible";
+  
+  let staff = seleccionadoST;
+  for (let i=0; i<staff.length; i++){
+    results.innerHTML += `<div class = "harryCards">
+  <img class="harry-image" src= ${staff[i].image}>
+  <li class= "nombre" >Nombre: ${staff[i].name}
+  <li class= "descripcion" >Especie: ${staff[i].species}
+  <li class= "descripcion"> Casa: ${staff[i].house}
+  <li class= "descripcion"> Linaje: ${staff[i].ancestry}
+  <li class= "descripcion"> Varita: ${staff[i].wand.wood} ${staff[i].wand.core} ${staff[i].wand.length}
+  <li class= "descripcion"> Cumpleaños: ${staff[i].dateOfBirth}
+        </div>`
+  
+}
+})
+
 //Seleccionador linaje
 document.getElementById("san").addEventListener("click", ()=>{
   var div = document.getElementById('results');
@@ -224,7 +281,29 @@ document.getElementById("squ").addEventListener("click",()=>{
     <li class= "descripcion"> Cumpleaños: ${squib[i].dateOfBirth}
      </div>`
   }
-  });
+  })
+
+  document.getElementById("Otras").addEventListener("click", ()=>{
+    var div = document.getElementById('results');
+        while(div.firstChild){
+            div.removeChild(div.firstChild);
+        }
+    document.getElementById("pantalla-inicio").style.display = "none";
+    let criaturas  = seleccionadoCriaturas;
+    for (let i=0; i<criaturas.length; i++){
+      results.innerHTML += `<div class = "harryCards">
+      <img class="harry-image" src= ${criaturas[i].image}>
+      <li class= "nombre" >Nombre: ${criaturas[i].name}
+      <li class= "descripcion" >Especie: ${criaturas[i].species}
+      <li class= "descripcion"> Casa: ${criaturas[i].house}
+      <li class= "descripcion"> Linaje: ${criaturas[i].ancestry}
+      <li class= "descripcion"> Varita: ${criaturas[i].wand.wood} ${criaturas[i].wand.core} ${criaturas[i].wand.length}
+      <li class= "descripcion"> Cumpleaños: ${criaturas[i].dateOfBirth}
+            </div>`
+    }
+  })
+
+  
 // var clickMeButton = document.createElement('button');
 // clickMeButton.id = 'modalBtn';
 // clickMeButton.className = 'button';

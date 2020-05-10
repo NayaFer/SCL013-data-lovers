@@ -54,4 +54,30 @@ return houseHufflepuff;
      data.ancestry === "squib");
      return squib;
       } 
+   
+ export const est  = (harryData) => {
+    let students  = harryData.filter (data =>
+      data.hogwartsStudent  ===  true);
+      return students;
       
+      }
+
+ export const sta  = (harryData) => {
+   let staff  = harryData.filter (data =>
+     data.hogwartsStaff  ===  true);
+      return staff;
+   }
+
+  export const Otras = (harryData) => {
+    let criaturas = harryData.filter (data =>
+      data.species ===  "cat");
+      
+      return criaturas ;
+  }     
+
+  
+  
+
+  
+      
+ 
