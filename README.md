@@ -1,3 +1,5 @@
+![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/readme%20portada.png)
+
 # Guia para el novato absoluto
 
 ## Índice
