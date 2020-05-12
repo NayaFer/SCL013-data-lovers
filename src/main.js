@@ -24,7 +24,9 @@ const seleccionadoCriaturas = Otras (harryData)
 
 
 
-//console.log(seleccionadoG)
+
+
+
 // import {sortArrAtoZ} from './data.js';
 // const ordenarAtoZ = sortArrAtoZ(harryData)
 // import {sortArrZtoA} from './data.js';
@@ -95,6 +97,7 @@ while(div.firstChild){
       while(div.firstChild){
           div.removeChild(div.firstChild);
       }
+      document.getElementById("left-logo").style.visibility = "visible";
       document.getElementById("pantalla-inicio").style.display = "none";
     let houseSlytherin = seleccionadoS;
     for (let i=0; i <houseSlytherin.length; i++){
@@ -248,6 +251,7 @@ document.getElementById("hij").addEventListener("click", ()=>{
       while(div.firstChild){
           div.removeChild(div.firstChild);
       }
+  document.getElementById("left-logo").style.visibility = "visible";    
   document.getElementById("pantalla-inicio").style.display = "none";
   let muggleborn = seleccionadoSucia;
   for (let i=0; i<muggleborn.length; i++){
@@ -288,6 +292,7 @@ document.getElementById("squ").addEventListener("click",()=>{
         while(div.firstChild){
             div.removeChild(div.firstChild);
         }
+    document.getElementById("left-logo").style.visibility = "visible";   
     document.getElementById("pantalla-inicio").style.display = "none";
     let criaturas  = seleccionadoCriaturas;
     for (let i=0; i<criaturas.length; i++){
@@ -302,6 +307,8 @@ document.getElementById("squ").addEventListener("click",()=>{
             </div>`
     }
   })
+
+  
 
   
 // var clickMeButton = document.createElement('button');

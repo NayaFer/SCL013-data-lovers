@@ -70,7 +70,7 @@ return houseHufflepuff;
 
   export const Otras = (harryData) => {
     let criaturas = harryData.filter (data =>
-      data.species ===  "cat");
+      data.species ===  "cat" || data.species === "half-giant" || data.species === "werewolf");
       
       return criaturas ;
   }     

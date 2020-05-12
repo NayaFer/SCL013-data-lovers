@@ -1,23 +1,12 @@
-import { example, anotherExample } from '../src/data.js';
+import {houseG} from '../src/data.js';
 
 
-describe('example', () => {
+describe('houseG', () => {
   test('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof houseG).toBe('function');
   });
 
-  test('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-
-describe('anotherExample', () => {
-  test('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  test('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  test('returns `Harry Potter`', () => {
+    expect(houseG('Gryffindor')[0].house).toBe('Gryffindor');
   });
 });
