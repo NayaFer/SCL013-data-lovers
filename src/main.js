@@ -21,17 +21,13 @@ import {sta} from './data.js';
 const seleccionadoST = sta (harryData)
 import {Otras} from './data.js';
 const seleccionadoCriaturas = Otras (harryData)
+import {orderharryAz} from './data.js';
+const orderedDataAz = orderharryAz (harryData)
+import {orderharryZa} from './data.js';
+const orderedDataZa = orderharryZa (harryData)
 
 
 
-
-
-
-// import {sortArrAtoZ} from './data.js';
-// const ordenarAtoZ = sortArrAtoZ(harryData)
-// import {sortArrZtoA} from './data.js';
-// const ordenarZtoA = sortArrZtoA(harryData)
-//When press <todos> on side menu
 document.getElementById("left-logo").style.visibility= "hidden";
 document.getElementById("link-todos").addEventListener("click", enterTodos);
 function enterTodos() {
@@ -308,11 +304,24 @@ document.getElementById("squ").addEventListener("click",()=>{
     }
   })
 
+  function viewAllharry (harryData) {
+    let cardTemplate = ""; 
+    for (let i = 0; i < harryData.length; i++) {
+      cardTemplate  += `<div class = "harryCards">
+      <img class="harry-image" src= ${harryData[i].image}>
+      <li class= "nombre" >Nombre: ${harryData[i].name}
+      </div>`
+      results.innerHTML = cardTemplate
+    }}
   
-
-  
-// var clickMeButton = document.createElement('button');
-// clickMeButton.id = 'modalBtn';
-// clickMeButton.className = 'button';
-// clickMeButton.innerHTML = 'M Á S';
-// results.appendChild(clickMeButton);
+  const  selectElement=document.querySelector(".dropdown-select");
+  selectElement.addEventListener("change",(e) => {
+    const resultado =`${e.target.value}`;
+    
+    if  (resultado === "A-Z"){
+      viewAllharry(orderedDataAz);
+    }
+    else if (resultado === "Z-A"){
+      viewAllharry(orderedDataZa);
+    }
+  });
