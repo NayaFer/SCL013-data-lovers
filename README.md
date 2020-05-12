@@ -58,6 +58,9 @@ Lo primero que hicimos al decidir nuestro proyecto fue generar un prototipo de b
  
 Como dato :Hicimos nuestro primer feedback con nuestro squad.
 
+# Hoja de Estilo 
+![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/readme_paleta.png)
+
 
 ## 5. Protopipo baja fidelidad
 
@@ -70,6 +73,7 @@ Como dato :Hicimos nuestro primer feedback con nuestro squad.
 ![FOTO2](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma2.png)
 ![FOTO3](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma3.png)
 ![FOTO4](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma4.png)
+![FOTO5](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma5.png)
 
 
 [Enlace Figma](https://www.figma.com/file/8Bg2SLPzDN2GJDezOc5EUx/data-lovers?node-id=0:1)
