@@ -11,9 +11,6 @@
     <div id="root"></div>
 
     <div class="container">
-      <!-- entire page -->
-      <input type="checkbox" id="menu-trigger" class="menu-trigger" checked />
-      <label for="menu-trigger">&#9776;</label>
 
       <nav>
         <!-- side menu -->
@@ -29,7 +26,6 @@
             </div>
 
             
-
             <div class="item">
               <input type="checkbox" id="A"/>
               <img src="img/arrow.svg" class="arrow"><label for="A">casas</label>
@@ -45,12 +41,11 @@
 
           <div class="item">
             <input type="checkbox" id="B"/>
-            <img src="img/arrow.svg" class="arrow"><label for="B" >ocupación</label>
+            <img src="img/arrow.svg" class="arrow"><label for="B">ocupación</label>
             
             <ul>
-              <li><a href="#" id="est" >estudiante de hogwarts</a></li>
-              <li><a href="#" id="sta" >staff de hogwarts</a></li>
-              
+              <li><a href="#" id="est">estudiante de hogwarts</a></li>
+              <li><a href="#" id="sta">staff de hogwarts</a></li>
             </ul>
         </div>
 
@@ -60,7 +55,7 @@
           <img src="img/arrow.svg" class="arrow"><label for="C">linaje</label>
           
           <ul>
-            <a href="#" id="san">sangre pura</a></li>
+                <li><a href="#" id="san">sangre pura</a></li>
                 <li><a href="#" id="mes">mestizo</a></li>
                 <li><a href="#" id="hij">hijo de muggles</a></li>
                 <li><a href="#" id="squ">squib</a></li>
@@ -68,12 +63,17 @@
       </div>
 
       <div class="item">
-            <li class="wodropdown"><a href="#otras" id="Otras">otras criaturas</a></li>
+            <li class="wodropdown"><a href="#otras" id="link-otras">otras criaturas</a></li>
+            </div>
           
-        </div>
+        </ul>
+          </div>
       </nav>
 
-      
+      <!-- entire page -->
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" checked />
+      <label for="menu-trigger">&#9776;</label>
+
       <div class="content-wrap">
         <!-- <div class="selector">
         <select name="" id="select-gender">
@@ -89,25 +89,22 @@
           <h3>guía para el novato absoluto</h3>
         </div>
 
-        <!-- Tarjetas -->
+        <!-- Tarjetas y filtros -->
         <section id="results" class="results">
 
-          <div class="dropdown dropdown-dark">
+          <div class="dropdown dropdown-dark" id = "selector">
             <select name="select" id= "select" class="dropdown-select">
               <option value="">Ordenar...</option>
               <option value="A-Z">A - Z</option>
               <option value="Z-A">Z - A</option>
             </select>
           </div>
-          
-          <!-- <button id="modalBtn" class="button">M Á S</button>
-          <div id="hpModal" class="modal">
-            <div class="modal-content">
-              <span class="closeBtn">&times;</span>
-              <p id="more-content"></p>
-              
+        
+          <div id="harryModal" class="modal">
+            <div id="modal-content">
+              <!-- <span class="close">&times;</span> -->
             </div>
-          </div> -->
+          </div>
 
         </section>
       </div>

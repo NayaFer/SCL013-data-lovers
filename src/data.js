@@ -68,15 +68,14 @@ return houseHufflepuff;
       return staff;
    }
 
-  export const Otras = (harryData) => {
+  export const otras = (harryData) => {
     let criaturas = harryData.filter (data =>
       data.species ===  "cat" || data.species === "half-giant" || data.species === "werewolf");
       
       return criaturas ;
   }     
 
-  
-  //Ordena harry por nombre de la A a la Z
+    //Ordena harry por nombre de la A a la Z
 export const orderharryAz = (harryData)=>{
   const newDataArray = [];
   for (let i = 0; i < harryData.length; i++) {
@@ -93,6 +92,7 @@ export const orderharryAz = (harryData)=>{
   });
   return newDataArray;
 };
+
 //Ordena harry por nombre de la Z a la A
 export const orderharryZa = (harryData)=>{
   const newDataArray = [];
@@ -110,38 +110,3 @@ export const orderharryZa = (harryData)=>{
   });
   return newDataArray;
 };
-
-
-  // export const sortAlphabetical = (dataArray, sortAtoZ) => {
-  //   let sortAtoZ = harryData.sort ((a, b) => {
-  //     if (a.name.toLowerCase() < b.name.toLowerCase()
-  //     ) return -1;
-  //     else if (a.name.toLowerCase() > b.name.toLowerCase()
-  //     ) return 1;
-  //     return 0;
-      
-  //   })
-  // } //ME SALE EN LA CONSOLA EL SORT PERO NO EN EL DOCUMENTO
-  // //por poblemas con sortAtoZ
-  
-
-  // export const sortAlphabetical = (dataArray, sortZtoA) => {
-  //   let sortZtoA = harryData.sort ((a, b) => {
-  //     if (a.name.toLowerCase() > b.name.toLowerCase()
-  //     ) return -1;
-  //     else if (a.name.toLowerCase() < b.name.toLowerCase()
-  //     ) return 1;
-  //     return 0;
-      
-  //   })
-  // }
-
-// //A to Z
-//   harryData.sort(function(a, b) {
-//     return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
-//  });
-
-//  //Z to A
-//  harryData.sort(function(a, b) {
-//   return b.name.toLowerCase().localeCompare(a.name.toLowerCase());
-// });
