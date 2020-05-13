@@ -1,30 +1,30 @@
-![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/readme%20portada.png)
+![header](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/readme_portada.png)
 
-# Guia para el novato absoluto
+# Wizards Unite: Guía para el Novato Absoluto
 
 ## Índice
 
-* [1. Introduccion](#1-Introduccion)
-* [2. Definicion de Usuario](#2-Definicion-de-Usuario)
+* [1. Introducción](#1-Introducción)
+* [2. Definición de Usuario](#2-Definición-de-Usuario)
 * [3. Historias de Usuarios](#3-Historias-de-Usuarios)
-* [4. Proceso y desiciones de diseño](#4-Proceso-y-desiciones-de-diseño)
-* [5. Protopipo baja fidelidad](#5-Prototipo-baja-fidelidad)
+* [4. Proceso y decisiones de Diseño](#4-Proceso-y-decisiones-de-Diseño)
+* [5. Prototipo baja fidelidad](#5-Prototipo-baja-fidelidad)
 * [6. Prototipo alta fidelidad](#6-Prototipo-alta-fidelidad)
-* [7. Como utilzar la plataforma](#7-Como-utiluzar-la-plataforma)
+* [7. Cómo utilzar la plataforma](#7-Cómo-utilizar-la-plataforma)
 * [8. Testeos](#8-Testeos)
 * [9. Checklist](#9-checklist)
 
 ***
 
-## 1. Indroduccion
+## 1. Introducción
 
-"Guía para el novato absoluto de  Harry Potter" es nuestro proyecto de data lovers en laboratoria. Nuestro sitio está orientado a personas novatas en el juego de wizards unite de Harry Potter. En esta app podrán visializar la descripción de cada personaje con un simple click ; ver cosas como su casa , patronus o ver el material de su varita.
+"Guía para el Novato Absoluto de Harry Potter" es nuestro proyecto de *Data Lovers* en Laboratoria. Nuestro sitio está orientado a personas principiantes en el juego Wizards Unite del universo Harry Potter. En esta app podrán visualizar la descripción de cada personaje con un simple click; ver cosas como su casa, su ocupación, su patronus o el material de su varita.
 
-Buscamos guiarte en la toma de decisiones que puedas tomar al momento de elegir un personaje en el juego.
+Buscamos guiarte en la toma de decisiones con las que puedas encontrarte al momento de elegir un personaje en el juego.
 
-## 2. Definicion de Usuario
+## 2. Definición de Usuario
 
-“Guia para el novato absoluto” esta orientada a personas que se quieran aventurar en el mundo mágico y puedan tener información relevante para poder jugar Harry Potetr : Wizards Unite.
+“Guía para el Novato Absoluto” esta orientada a personas que se quieran aventurar en el mundo mágico y puedan tener información relevante para poder jugar Harry Potter: Wizards Unite.
 
 
 ## 3. Historias de Usuarios
@@ -32,7 +32,6 @@ Buscamos guiarte en la toma de decisiones que puedas tomar al momento de elegir 
 Historia 1 : Como usuario principiante (fan de los libros )  
  - Quiero conocer que personajes del libro están en el juego 
  - Para poder jugar con mi personaje favorito
-
 
 Historia 2 : Como usuario principiante ( fan de las películas ) 
 
@@ -51,52 +50,60 @@ Historia 4 : Como usuario principiante (fan de Harry potter )
 
 
 
+## 4. Proceso y decisiones de Diseño
 
-## 4. Proceso y desiciones de diseño
-
-Lo primero que hicimos al decidir nuestro proyecto fue generar un prototipo de baja fidelidad, como se puede ver en la primera imagen , luego hicimos un prototipo de alta fidelidad , tratamos de hacerlo muy similar a el de baja fidelidad. Teniendo cambios mínimos.
+Lo primero que hicimos al decidir nuestro proyecto fue generar un prototipo de baja fidelidad, como se puede ver en la primera imagen, luego hicimos un prototipo de alta fidelidad, tratamos de hacerlo muy similar al de baja fidelidad, teniendo cambios mínimos.
  
-Como dato :Hicimos nuestro primer feedback con nuestro squad.
+Como dato: Tuvimos nuestro primer feedback de parte de nuestro squad.
 
-# Hoja de Estilo 
-![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/readme_paleta.png)
+# Paleta de colores
+![palette](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/readme_paleta.png)
 
 
-## 5. Protopipo baja fidelidad
+## 5. Prototipo baja fidelidad
 
-![FOTO](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/bajafidelidad.jpeg)
+![FOTO](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/bajafidelidad.jpeg)
 
 
 ## 6. Prototipo alta fidelidad
 
-![FOTO1](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma1.png)
-![FOTO2](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma2.png)
-![FOTO3](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma3.png)
-![FOTO4](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/figma4.png)
-![FOTO5](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/fimga5.png)
+![FOTO1](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/figma1.png)
+![FOTO2](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/figma2.png)
+![FOTO3](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/figma3.png)
+![FOTO4](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/figma4.png)
+![FOTO5](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/figma5.png)
 
 
 [Enlace Figma](https://www.figma.com/file/8Bg2SLPzDN2GJDezOc5EUx/data-lovers?node-id=0:1)
 
 
-## 7. Como utilzar la plataforma
+## 7. Cómo utilzar la plataforma
 
- - Ingresar a la página de Guia para el novato Absoluto.
+ - Ingresar a la página de Guia para el Novato Absoluto.
  - Hacer click en el menú hamburguesa.
- - Elegir una opción ( ver todo ,casa , ocupación , linaje u otras
-   criaturas .
- - Escoger en personaje y leer la información que sale reflejada en su
+ - Elegir una opción (ver todo, casa, ocupación, linaje u otras
+   criaturas).
+ - Escoger un personaje y leer la información que sale reflejada en su
    tarjeta.
  - Si quieres volver al inicio puedes clickear logo que está en la
-   esquina
+   esquina superior izquierda.
  
 
-**Tener en consideración :**
-No sales todos los personajes del juego.
+**Tener en consideración:**
+No salen todos los personajes del juego.
 
 ## 8.Testeos
 
-(ubicar garficos )
+Nuestros testeos fueron hechos por Maze, donde pudimos sacar informes porcentuales de usuabilidad, acceso directo y ruta esperada.
+
+
+Porcentajes de Usuabilidad Testeos
+
+![Usuabilidad](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze1.png)
+![Acceso directo](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze2.png)
+![Visión general](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze3.png)
+![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze4.png)
+![Grafico Ruta esperada](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze5.png)
 
 [Enlace Maze](https://t.maze.design/10897011)
 
@@ -105,22 +112,22 @@ No sales todos los personajes del juego.
 
 ## 9. Checklist
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm run pretest`)
+* [x] Usa VanillaJS.
+* [x] No hace uso de `this`.
+* [x] Pasa linter (`npm run pretest`)
 * [ ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+* [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [x] Incluye historias de usuario en `README.md`.
+* [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+* [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
 * [ ] Incluye link a Zeplin en `README.md`.
 * [ ] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
+* [x] UI: Permite filtrar data en base a una condición.
 * [ ] UI: Es _responsive_.
