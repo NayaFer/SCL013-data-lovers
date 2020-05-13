@@ -110,14 +110,17 @@ Porcentajes de Usuabilidad Testeos
 
 
 ***
+## 9. Testeos Unitarios 
 
-## 9. Checklist
+![Test 100%](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/testeos%20unitarios.png)
+
+## 10. Checklist
 
 * [x] Usa VanillaJS.
 * [x] No hace uso de `this`.
 * [x] Pasa linter (`npm run pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+* [x] Pasa tests (`npm test`)
+* [x] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
 * [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
 * [x] Incluye historias de usuario en `README.md`.
@@ -129,6 +132,6 @@ Porcentajes de Usuabilidad Testeos
 * [ ] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
+* [x] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [x] UI: Permite filtrar data en base a una condición.
-* [ ] UI: Es _responsive_.
+* [x] UI: Es _responsive_.
