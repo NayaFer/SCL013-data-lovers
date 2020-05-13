@@ -12,7 +12,8 @@
 * [6. Prototipo alta fidelidad](#6-Prototipo-alta-fidelidad)
 * [7. Cómo utilzar la plataforma](#7-Cómo-utilizar-la-plataforma)
 * [8. Testeos](#8-Testeos)
-* [9. Checklist](#9-checklist)
+* [9. Testeos Unitarios](#9-Testeos-Unitarios)
+* [10. Checklist](#10-checklist)
 
 ***
 

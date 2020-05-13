@@ -1,5 +1,5 @@
 import { houseG, houseS, houseR, houseH, san, mes, hij, squi,
- est, sta, otras } from '../src/data';
+ est, sta, otras, orderharryAz, orderharryZa } from '../src/data';
 import harryData from '../src/data/potter/potter'
 
 describe("houseG", () => {
@@ -194,5 +194,44 @@ describe("otras", () => {
 
     expect(otras(input, harryData)).toEqual(output);
 
+  });
+});
+const arrayOriginal = [
+  { name: "Harry Potter" },
+  { name: "Draco Malfoy" },
+  { name: "Ron Weasley" },
+  { name: "Draco Malfoy" },
+];
+
+const arrayAz = [
+  { name: "Draco Malfoy" },
+  { name: "Draco Malfoy" },
+  { name: "Harry Potter" },
+  { name: "Ron Weasley" },
+];
+
+const arrayZa = [
+  { name: "Ron Weasley" },
+  { name: "Harry Potter" },
+  { name: "Draco Malfoy" },
+  { name: "Draco Malfoy" },
+];
+describe("orderharryAz", () => {
+  test("is a function", () => {
+    expect(typeof orderharryAz).toBe("function");
+  });
+
+  test("Ordenar los nombres de la A-Z", () => {
+    expect(orderharryAz(arrayOriginal)).toStrictEqual(arrayAz);
+  });
+});
+
+describe("orderharryZa", () => {
+  test("is a function", () => {
+    expect(typeof orderharryZa).toBe("function");
+  });
+
+  test("Ordenar los nombres de la Z-A", () => {
+    expect(orderharryZa(arrayOriginal)).toStrictEqual(arrayZa);
   });
 });
