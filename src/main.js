@@ -1,26 +1,26 @@
 import harryData from './data/potter/potter.js';
 import {houseG} from './data.js';
-const seleccionadoG = houseG(harryData)
+const selectG = houseG(harryData)
 import {houseS} from './data.js';
-const seleccionadoS = houseS(harryData)
+const selectS = houseS(harryData)
 import {houseR} from './data.js';
-const seleccionadoR = houseR(harryData)
+const selectR = houseR(harryData)
 import {houseH} from './data.js';
-const seleccionadoH = houseH(harryData)
+const selectH = houseH(harryData)
 import {san} from './data.js';
-const seleccionadoPura= san(harryData)
+const selectPure= san(harryData)
 import {mes} from './data.js';
-const seleccionadoMestizo = mes(harryData)
+const selectMes = mes(harryData)
 import {hij} from './data.js';
-const seleccionadoSucia = hij(harryData)
+const selectMu = hij(harryData)
 import {squi} from './data.js';
-const seleccionadoSquib = squi(harryData)  
+const selectSquib = squi(harryData)  
 import {est} from './data.js';
-const seleccionadoE = est(harryData)
+const selectE = est(harryData)
 import {sta} from './data.js';
-const seleccionadoST = sta(harryData)
+const selectST = sta(harryData)
 import {otras} from './data.js';
-const seleccionadoCriaturas = otras(harryData)
+const selectCri = otras(harryData)
 import {orderharryAz} from './data.js';
 const orderedDataAz = orderharryAz (harryData)
 import {orderharryZa} from './data.js';
@@ -161,7 +161,7 @@ document.getElementById("link-todos").addEventListener("click", ()=>{
     document.getElementById("left-logo").style.visibility = "visible";
     document.getElementById("selector").style.display= "none"; //solo funciona si se hace todos y dp gryff
 
-    let houseGryffindor = seleccionadoG;
+    let houseGryffindor = selectG;
     for (let i=0; i <houseGryffindor.length; i++){
         results.innerHTML +=
         `<div class = "harryCards">
@@ -185,7 +185,7 @@ document.getElementById("sly").addEventListener("click", ()=>{
       document.getElementById("pantalla-inicio").style.display = "none";
       document.getElementById("left-logo").style.visibility = "visible";
 
-    let houseSlytherin = seleccionadoS;
+    let houseSlytherin = selectS;
     for (let i=0; i <houseSlytherin.length; i++){
     results.innerHTML +=
      `<div class = "harryCards">
@@ -209,7 +209,7 @@ document.getElementById("rav").addEventListener("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let houseRavenclaw = seleccionadoR;
+  let houseRavenclaw = selectR;
   for (let i=0; i <houseRavenclaw.length; i++){
     results.innerHTML += `<div class = "harryCards">
      <img class="harry-image" src= ${houseRavenclaw[i].image}>
@@ -232,7 +232,7 @@ document.getElementById("huf").addEventListener("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let houseHufflepuff = seleccionadoH;
+  let houseHufflepuff = selectH;
   for (let i=0; i <houseHufflepuff.length; i++){
     results.innerHTML += `<div class = "harryCards">
     <img class="harry-image" src= ${houseHufflepuff[i].image}>
@@ -257,7 +257,7 @@ document.getElementById("est").addEventListener ("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
   
-  let students = seleccionadoE;
+  let students = selectE;
   for (let i=0; i<students.length; i++){
     results.innerHTML += `<div class = "harryCards">
   <img class="harry-image" src= ${students[i].image}>
@@ -280,7 +280,7 @@ document.getElementById("sta").addEventListener ("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
   
-  let staff = seleccionadoST;
+  let staff = selectST;
   for (let i=0; i<staff.length; i++){
     results.innerHTML += `<div class = "harryCards">
   <img class="harry-image" src= ${staff[i].image}>
@@ -304,7 +304,7 @@ document.getElementById("san").addEventListener("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let pureblood = seleccionadoPura;
+  let pureblood = selectPure;
   for (let i=0; i<pureblood.length; i++){
     results.innerHTML += `<div class = "harryCards">
     <img class="harry-image" src= ${pureblood[i].image}>
@@ -326,8 +326,8 @@ document.getElementById("mes").addEventListener("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let mestizo = seleccionadoMestizo;
-  for (let i=0; i<mes.length; i++){
+  let mestizo = selectMes;
+  for (let i=0; i<mestizo.length; i++){
     results.innerHTML += `<div class = "harryCards">
     <img class="harry-image" src= ${mestizo[i].image}>
     <h3 class= "harry-names" >${mestizo[i].name}</h3>
@@ -348,7 +348,7 @@ document.getElementById("hij").addEventListener("click", ()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let muggleborn = seleccionadoSucia;
+  let muggleborn = selectMu;
   for (let i=0; i<muggleborn.length; i++){
     results.innerHTML += `<div class = "harryCards">
     <img class="harry-image" src= ${muggleborn[i].image}>
@@ -370,7 +370,7 @@ document.getElementById("squ").addEventListener("click",()=>{
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("left-logo").style.visibility = "visible";
 
-  let squib= seleccionadoSquib;
+  let squib= selectSquib;
   for (let i=0; i<squib.length; i++){
     results.innerHTML += `<div class = "harryCards">
     <img class="harry-image" src= ${squib[i].image}>
@@ -393,7 +393,7 @@ document.getElementById("squ").addEventListener("click",()=>{
     document.getElementById("left-logo").style.visibility = "visible";
     
 
-    let criaturas  = seleccionadoCriaturas;
+    let criaturas  = selectCri;
     for (let i=0; i<criaturas.length; i++){
       results.innerHTML += `<div class = "harryCards">
       <img class="harry-image" src= ${criaturas[i].image}>

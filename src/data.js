@@ -34,18 +34,18 @@ return houseHufflepuff;
 
    export const san = (harryData) => {
     let pureblood= harryData.filter (data =>
-    data.ancestry === "pure-blood");
+    data.ancestry === "sangre-pura");
      return pureblood;
         }
   export const mes = (harryData) => {
    let mes = harryData.filter (data=>
-    data.ancestry === "half-blood");
+    data.ancestry === "mestizo");
    return mes;
        }     
 
    export const hij = (harryData) => {
    let muggleborn = harryData.filter ( data =>
-    data.ancestry === "muggleborn");
+    data.ancestry === "muggles");
     return muggleborn;
       }    
 
@@ -70,7 +70,7 @@ return houseHufflepuff;
 
   export const otras = (harryData) => {
     let criaturas = harryData.filter (data =>
-      data.species ===  "cat" || data.species === "half-giant" || data.species === "werewolf");
+      data.species ===  "gata" || data.species === "gigante" || data.species === "hombre-lobo");
       
       return criaturas ;
   }     
