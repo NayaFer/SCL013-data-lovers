@@ -12,7 +12,11 @@
 * [6. Prototipo alta fidelidad](#6-Prototipo-alta-fidelidad)
 * [7. Cómo utilzar la plataforma](#7-Cómo-utilizar-la-plataforma)
 * [8. Testeos](#8-Testeos)
+<<<<<<< HEAD
 * [9. Testeos Unitarios](#9-Testeos-Unitarios)
+=======
+* [9. Pruebas Unitarias](#9-Pruebas-Unitarias)
+>>>>>>> 1202f19dee96264520d13d42385e33d12f1bfc03
 * [10. Checklist](#10-checklist)
 
 ***
@@ -93,11 +97,12 @@ Como dato: Tuvimos nuestro primer feedback de parte de nuestro squad.
 **Tener en consideración:**
 No salen todos los personajes del juego.
 
-## 8.Testeos
+## 8. Testeos
 
 Nuestros testeos fueron hechos por Maze, donde pudimos sacar informes porcentuales de usuabilidad, acceso directo y ruta esperada.
 
 
+<<<<<<< HEAD
 Porcentajes de Usuabilidad Testeos
 
 ![Usuabilidad](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze1.png)
@@ -105,14 +110,29 @@ Porcentajes de Usuabilidad Testeos
 ![Visión general](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze3.png)
 ![.](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze4.png)
 ![Grafico Ruta esperada](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/maze5.png)
+=======
+**Porcentajes de Usuabilidad Testeos**
+
+![Usuabilidad](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/maze1.png)
+![Acceso directo](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/maze2.png)
+![Visión general](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/maze3.png)
+![.](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/maze4.png)
+![Grafico Ruta esperada](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/maze5.png)
+>>>>>>> 1202f19dee96264520d13d42385e33d12f1bfc03
 
 [Enlace Maze](https://t.maze.design/10897011)
 
 
 ***
+<<<<<<< HEAD
 ## 9. Testeos Unitarios 
 
 ![Test 100%](https://github.com/NayaFer/SCL013-data-lovers/blob/master/src/img/testeos%20unitarios.png)
+=======
+## 9. Pruebas Unitarias 
+
+![Test 100%](https://raw.githubusercontent.com/ivvnv/SCL013-data-lovers/master/src/img/tests_unitarios.png)
+>>>>>>> 1202f19dee96264520d13d42385e33d12f1bfc03
 
 ## 10. Checklist
 

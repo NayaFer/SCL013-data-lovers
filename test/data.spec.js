@@ -2,6 +2,12 @@ import { houseG, houseS, houseR, houseH, san, mes, hij, squi,
  est, sta, otras, orderharryAz, orderharryZa } from '../src/data';
 import harryData from '../src/data/potter/potter'
 
+describe("houseS", () => {
+  test("is a filter function", () => {
+    expect(typeof houseS).toBe("function");
+  });
+});
+
 describe("houseG", () => {
   test("returns characters from Gryffindor", () => {
     const input = [
@@ -73,15 +79,15 @@ describe("houseH", () => {
 });
 
 describe("san", () => {
-  test("filter that returns characters that have pure-blood ancestry", () => {
+  test("filter that returns characters that have sangre-pura ancestry", () => {
     const input = [
-      { name: 'Harry Potter', ancestry: 'half-blood' },
-      { name: 'Hermione Granger', ancestry: 'muggleborn' },
-      { name: 'Draco Malfoy', ancestry: 'pure-blood' }
+      { name: 'Harry Potter', ancestry: 'mestizo' },
+      { name: 'Hermione Granger', ancestry: 'muggles' },
+      { name: 'Draco Malfoy', ancestry: 'sangre-pura' }
     ];
 
     const output = [
-      { name: 'Draco Malfoy', ancestry: 'pure-blood' }
+      { name: 'Draco Malfoy', ancestry: 'sangre-pura' }
     ];
 
     expect(san(input, harryData)).toEqual(output);
@@ -90,15 +96,15 @@ describe("san", () => {
 });
 
 describe("mes", () => {
-  test("filter that returns characters that have half-blood ancestry", () => {
+  test("filter that returns characters that have mestizo ancestry", () => {
     const input = [
-      { name: 'Harry Potter', ancestry: 'half-blood' },
-      { name: 'Gregory Goyle', ancestry: 'pure-blood' },
-      { name: 'Draco Malfoy', ancestry: 'pure-blood' }
+      { name: 'Harry Potter', ancestry: 'mestizo' },
+      { name: 'Gregory Goyle', ancestry: 'sangre-pura' },
+      { name: 'Draco Malfoy', ancestry: 'sangre-pura' }
     ];
 
     const output = [
-      { name: 'Harry Potter', ancestry: 'half-blood' }
+      { name: 'Harry Potter', ancestry: 'mestizo' }
     ];
 
     expect(mes(input, harryData)).toEqual(output);
@@ -107,15 +113,15 @@ describe("mes", () => {
 });
 
 describe("hij", () => {
-  test("filter that returns characters that are muggleborn as Hermione", () => {
+  test("filter that returns characters that are muggles as Hermione", () => {
     const input = [
       { name: 'Cho Chang', ancestry: '' },
-      { name: 'Gregory Goyle', ancestry: 'pure-blood' },
-      { name: 'Hermione Granger', ancestry: 'muggleborn' }
+      { name: 'Gregory Goyle', ancestry: 'sangre-pura' },
+      { name: 'Hermione Granger', ancestry: 'muggles' }
     ];
 
     const output = [
-      { name: 'Hermione Granger', ancestry: 'muggleborn' }
+      { name: 'Hermione Granger', ancestry: 'muggles' }
     ];
 
     expect(hij(input, harryData)).toEqual(output);
@@ -127,8 +133,8 @@ describe("squi", () => {
   test("filter that returns characters that are squibs as Filch", () => {
     const input = [
       { name: 'Argus Filch', ancestry: 'squib' },
-      { name: 'Lucius Malfoy', ancestry: 'pure-blood' },
-      { name: 'Arthur Weasley', ancestry: 'pure-blood' }
+      { name: 'Lucius Malfoy', ancestry: 'sangre-pura' },
+      { name: 'Arthur Weasley', ancestry: 'sangre-pura' }
     ];
 
     const output = [
@@ -179,17 +185,17 @@ describe("sta", () => {
 describe("otras", () => {
   test("returns non-human characters", () => {
     const input = [
-      { name: 'Rubeus Hagrid', species: 'half-giant' },
-      { name: 'Minerva McGonagall', species: 'human' },
-      { name: 'Remus Lupin', species: 'werewolf' },
-      { name: 'Mrs Norris', species: 'cat' },
-      { name: 'Bellatrix Lestrange', species: 'human' }
+      { name: 'Rubeus Hagrid', species: 'gigante' },
+      { name: 'Minerva McGonagall', species: 'humano' },
+      { name: 'Remus Lupin', species: 'hombre-lobo' },
+      { name: 'Mrs Norris', species: 'gata' },
+      { name: 'Bellatrix Lestrange', species: 'humano' }
     ];
 
     const output = [
-      { name: 'Rubeus Hagrid', species: 'half-giant' },
-      { name: 'Remus Lupin', species: 'werewolf' },
-      {name: 'Mrs Norris', species: 'cat' }
+      { name: 'Rubeus Hagrid', species: 'gigante' },
+      { name: 'Remus Lupin', species: 'hombre-lobo' },
+      {name: 'Mrs Norris', species: 'gata' }
     ];
 
     expect(otras(input, harryData)).toEqual(output);
@@ -221,7 +227,7 @@ describe("orderharryAz", () => {
     expect(typeof orderharryAz).toBe("function");
   });
 
-  test("Ordenar los nombres de la A-Z", () => {
+  test("alphabetically order names from A to Z", () => {
     expect(orderharryAz(arrayOriginal)).toStrictEqual(arrayAz);
   });
 });
@@ -231,7 +237,7 @@ describe("orderharryZa", () => {
     expect(typeof orderharryZa).toBe("function");
   });
 
-  test("Ordenar los nombres de la Z-A", () => {
+  test("alphabetically reverse order names from Z to A", () => {
     expect(orderharryZa(arrayOriginal)).toStrictEqual(arrayZa);
   });
 });
